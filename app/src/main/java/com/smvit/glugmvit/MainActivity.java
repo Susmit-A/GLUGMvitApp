@@ -14,13 +14,12 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//comment
 public class MainActivity extends AppCompatActivity {
 
     DrawerLayout dl;
     ListView lv;
     List<String> DrawerList;
-    FragmentTransaction ft;
     ContentFragment cf;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
